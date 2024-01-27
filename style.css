@@ -1,0 +1,63 @@
+*, *.before, *:after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    padding: 30px;
+    height: 85vh;
+    width: 50%;
+    border: 3px solid black;
+}
+
+input[type = text], input[type = email], input[type = password] {
+    width: 40%;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.sign_or_log_box {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+input[type = button], button {
+    height: 8vh;
+    width: 10vw;
+    border-radius: 3px;
+    background-color: #a4161a;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    padding: 25px;
+}
+
+.information_box {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button_box {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
